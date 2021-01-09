@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+#upper-section {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(upperbg.png);
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  size: 50rem;
+}
+.main-title {
+  padding-top: 1%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  transform: translateX(0%);
+  size
+
+}
+.expenses{
+  color:rgba(255, 255, 255, 0.884);
+  text-align: center;
+  background-color: red;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: ;
+  padding: 0.5rem;
+  border-color: white;
+  }
+.income
+{
+  color:rgba(255, 255, 255, 0.884);
+  text-align: center;
+  background-color: cadetblue;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  border: ;
+  padding: 0.5rem;
+  border-color: white;
+  transition: ease-in;
+}
+#income-expense{
+  background-color: red;
+}
+.links{
+  display: flex;
+  margin: %;
+  padding: 0%;
+}
+

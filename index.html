@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>budgety</title>
+</head>
+<body>
+
+    <div class="menu menu-show">
+        <div class="menu-items menu-show">menu</div>
+        <div class="menu-items">income</div>
+        <div class="menu-items">expense</div>
+        <div class="menu-items">budget</div>
+        <div class="menu-items">support</div>
+        <div class="menu-items">help</div>    
+    </div>
+    <div class="blur">
+        <section class="upper-half">
+        
+        <div class="links">
+            <a class="icon" href="https://www.twitter.com"><i><img src="/twitter.png" alt="#"></i></a>
+            <a class="icon" href="https://www.github.com"><i><img src="/github.png" alt="#"></i></a>
+            <a class="icon" href="https://www.google.com/"><i><img src="/google.png" alt="#"></i></a>
+        </div>
+        <div class="main-title">Available Budget in September 2020:</div>
+        <div class="budget-value">+0.00</div>
+        <div class="income">
+            <div class="income-text">INCOME</div>
+            <div class="income-value">+0.00</div>
+        </div>
+        <div class="expense">
+            <div class="expense-text">EXPENSES</div>
+            <div class="expense-value">-0.00</div>
+            <div class="expense-percent">--</div>
+        </div>
+    </section>
+    <section>
+        <div class="middle">
+            <select name="+/-" id="sign-changer" class="sign-changer">
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+            <input class="text-area" placeholder="Enter description..." type="text">
+            <input class="value" type="number" placeholder="value" >
+            <button class="tick"></button>
+        </div>
+    </section>
+    <div class="two-table">
+        <table id="table-income">
+            <tr>
+                <th id="inth">INCOME</th>
+                <th> </th>
+            <!--</tr>
+            <tr class="hover">
+                <td class="hover">test row</td>
+                <td>
+                    <div class="container hover">
+                        <div>
+                            <img class="delete hover deleteButton" src="delete.png" >
+                        </div>
+                        <div class="delete move">
+                            2500
+                        </div>
+                    </div>
+                    
+                </td>
+            </tr>-->
+            
+        </table>
+        <table id="table-expense">
+            <tr>
+                <th id="exth">EXPENSES</th>
+                <th>  </th>
+            </tr>
+            <!--<tr>
+                <td >test row</td>
+                <td>2500</td>
+            </tr>-->
+        </table>
+    </div>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>
